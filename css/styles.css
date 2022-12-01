@@ -60,7 +60,12 @@
     width: 3.5em;
     height: 3.5em;
     border-radius: 45%;
+    box-sizing: border-box;
+    padding: 1.25em;
+    font-size: 1em;
+    line-height: 1;
 }   
+
  .social-list a {
     text-decoration: none;
  }
