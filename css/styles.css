@@ -2,7 +2,7 @@
     border: 1px solid #000;
     float: left;
     font-size: 1rem;
-    padding: 2%;
+    padding: 0% 2% 2% 2%;
     width: 23%;
     box-sizing: border-box;
     margin: 40px 1% 0;
@@ -42,3 +42,25 @@
     font-size: 1.5em;
     margin: -40px 0 1em
 }
+
+.full-hero {
+    background-color: #c0e0c3;
+    height: 43vh;
+}
+
+.social-list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.social-list > li {
+    display: inline-block;
+    background: white;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 45%;
+}   
+ .social-list a {
+    text-decoration: none;
+ }
